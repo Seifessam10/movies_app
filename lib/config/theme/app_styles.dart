@@ -17,7 +17,10 @@ class AppStyle {
   static TextStyle browseCategory = TextStyle(
       fontSize: 20.sp, fontWeight: FontWeight.w300, color: Colors.white);
   static TextStyle categoryName = TextStyle(
-      fontSize: 12.sp, fontWeight: FontWeight.bold, color: Colors.white);
+    fontSize: 16.sp,
+    fontWeight: FontWeight.w600,
+    color: Colors.white,
+  );
   static TextStyle releaseYear = TextStyle(fontSize: 12.sp,fontWeight: FontWeight.w400,color: Colors.white);
   static TextStyle noMovie =  TextStyle(color: Colors.white70,fontSize: 14.sp,fontWeight: FontWeight.w400);
   static TextStyle movieTitle =TextStyle(fontSize: 14.sp,fontWeight: FontWeight.w400,color: Colors.white);
