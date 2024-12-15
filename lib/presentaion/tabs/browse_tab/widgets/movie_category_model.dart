@@ -22,8 +22,8 @@ class MovieCM extends StatelessWidget{
             Padding(
               padding:  REdgeInsets.all(10.0),
               child: SizedBox(
-                height: 130.h,
-                width: 180.w,
+                height: 150.h,
+                width: 200.w,
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(10),
                     child: Image.asset(AssetsManger.category,fit: BoxFit.fill,)),
